@@ -1,2 +1,97 @@
 # ZeroShot-T2I-SyntheticConcepts
 This repository provides a dataset of synthetic visual concepts generated using zero-shot Text-to-Image (T2I) models, designed to support research in concept-based Explainable Artificial Intelligence (XAI).
+
+📊 Synthetic Concept Dataset for Concept-Based XAI
+
+This repository provides a dataset of synthetic visual concepts generated using zero-shot Text-to-Image (T2I) models, designed to support research in concept-based Explainable Artificial Intelligence (XAI).
+
+🧠 Motivation
+
+Concept-based XAI methods aim to interpret deep learning models through human-understandable visual concepts (e.g., textures, object parts). However, these approaches typically rely on large, manually curated datasets, which limits scalability.
+
+To address this, we explore the use of synthetic concept datasets generated via T2I models as a scalable alternative.
+
+🗂️ Dataset Overview
+
+The dataset contains:
+
+🎨 Synthetic concept images generated from predefined textual prompts
+
+🏷️ Concept-level organization (one folder per concept)
+
+🔁 Multiple samples per concept to enable variability analysis
+
+⚙️ Configurations reflecting different prompt and generation settings
+
+Each concept is designed to approximate a human-interpretable visual feature, such as:
+
+textures (e.g., striped, dotted)
+
+object parts (e.g., wings, wheels)
+
+materials or patterns
+
+🔬 Use Cases
+
+This dataset is intended for:
+
+Evaluating concept-based XAI methods
+
+Studying representation similarity between synthetic and real concepts
+
+Testing intra-concept consistency across generated samples
+
+Supporting downstream explanation tasks
+
+Analyzing the effect of concept removal on model explanations
+
+📈 Evaluation Protocols (from the paper)
+
+The dataset supports four key analyses:
+
+Concept Representation Similarity
+Compare embeddings of synthetic vs. real concept images
+
+Intra-Concept Similarity
+Measure consistency across subsets of the same concept
+
+Downstream Explanation Performance
+Evaluate usefulness in explaining class predictions
+
+Concept Removal Impact
+Assess how removing a concept affects explanation behavior
+
+⚠️ Limitations
+
+While synthetic data offers scalability, this dataset highlights several challenges:
+
+❗ Potential mismatch between synthetic and real-world concepts
+
+🎭 Limited faithfulness of generated visual features
+
+📉 Variability in usefulness for downstream XAI tasks
+
+🤖 Biases introduced by the generative model
+
+These limitations should be carefully considered when using synthetic data for interpretability.
+
+🚀 Getting Started
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+Explore the dataset structure and integrate it into your XAI pipelines.
+
+📄 Citation
+
+If you use this dataset, please cite:
+
+@article{yourpaper202X,
+  title={Synthetic Concepts for Concept-Based Explainable AI: Opportunities and Limitations},
+  author={Author Names},
+  journal={Conference/Journal Name},
+  year={202X}
+}
+🤝 Contributions
+
+Contributions, issues, and discussions are welcome!
+Feel free to open a PR or start a discussion.
