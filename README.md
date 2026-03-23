@@ -37,10 +37,10 @@ This dataset is intended for:
 
 The dataset supports four key analyses:
 
-1. Concept Representation Similarity - Compare embeddings of synthetic vs. real concept images
-2. Intra-Concept Similarity - Measure consistency across subsets of the same concept
-3. Downstream Explanation Performance - Evaluate usefulness in explaining class predictions
-4. Concept Removal Impact - Assess how removing a concept affects explanation behavior
+1. **Concept Representation Similarity** - Compare embeddings of synthetic vs. real concept images
+2. **Intra-Concept Similarity** - Measure consistency across subsets of the same concept
+3. **Downstream Explanation Performance** - Evaluate usefulness in explaining class predictions
+4. **Concept Removal Impact** - Assess how removing a concept affects explanation behavior
 
 ### ⚠️ Limitations
 
@@ -73,6 +73,9 @@ If you use this dataset, please cite:
   year={202X}
 }
 ```
+
+**Full author list (equal contribution noted):**  
+Giacomo Astolfi*, Matteo Bianchi*, Riccardo Campi*, Antonio De Santis, Marco Brambilla
 
 ### 🤝 Contributions
 
