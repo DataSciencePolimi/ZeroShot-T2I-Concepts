@@ -77,7 +77,7 @@ If you use this dataset, please cite:
 **Full author list (equal contribution noted):**  
 Giacomo Astolfi*, Matteo Bianchi*, Riccardo Campi*, Antonio De Santis, Marco Brambilla
 
-### 🤝 Contributions
+## 🤝 Contributions
 
 Contributions, issues, and discussions are welcome!
 Feel free to open a PR or start a discussion.
