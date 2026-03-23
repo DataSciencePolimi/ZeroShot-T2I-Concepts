@@ -44,7 +44,7 @@ The dataset supports four key analyses:
 
 ### ⚠️ Limitations
 
-While synthetic data offers scalability, this dataset highlights several challenges:
+While synthetic data offers scalability, this dataset highlights some challenges:
 
 - ❗ Potential mismatch between synthetic and real-world concepts
 - 🎭 Limited faithfulness of generated visual features
