@@ -8,6 +8,13 @@ Concept-based XAI methods aim to interpret deep learning models through human-un
 
 To address this, we explore the use of synthetic concept datasets generated via T2I models as a scalable alternative.
 
+## 📥 Download
+
+```bash
+git clone https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts.git
+cd ZeroShot-T2I-Concepts
+```
+
 ## 🗂️ Dataset Overview
 
 The dataset contains:
