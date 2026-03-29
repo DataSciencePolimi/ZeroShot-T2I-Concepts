@@ -91,11 +91,11 @@ Explore the dataset structure and integrate it into your XAI pipelines.
 If you use this dataset, please cite:
 
 ```bibtex
-@article{yourpaper202X,
-  title={Synthetic Concepts for Concept-Based Explainable AI: Opportunities and Limitations},
-  author={Author Names},
-  journal={Conference/Journal Name},
-  year={202X}
+@InProceedings{ZeroShot-T2I-Concepts,
+    author    = {Astolfi, Giacomo and Bianchi, Matteo and Campi, Riccardo and De Santis, Antonio and Brambilla, Marco},
+    title     = {A Framework for Evaluating Zero-Shot Image Generation in Concept-based Explainability},
+    booktitle = {2026 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2026}
 }
 ```
 
