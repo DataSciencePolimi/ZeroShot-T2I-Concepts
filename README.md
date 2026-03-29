@@ -30,95 +30,40 @@ Each concept is designed to approximate a human-interpretable visual feature, su
 - object parts (e.g., wings, wheels)
 - materials or patterns
 
-## Project Tree
+### 📂 Project Tree
 
-Below is a visual outline of the dataset’s directory structure.  
 The root of the repository is `concepts/`.  
-After the helper script `analysis.py`, every *concept* is represented by its own directory.  
-Each concept folder follows a consistent naming convention:
+After the helper script `analysis.py`, every **concept** and **T2I model** gets its own dedicated folder.
 
 | suffix | meaning |
 |--------|---------|
-| `_flux`  | a *flushed* version (contrast‑adjusted) |
-| `_gpti1` | a *Gaussian‑processed* variant (first pass) |
-| `_sd35`  | a *size‑downscaled* 35‑pixel version |
-| (no suffix) | the original, full‑resolution image |
-
-Below is a representative subset (the full tree contains **~350** concept folders).  
-Feel free to expand any of the directories locally – the structure is identical across all concepts.
+| (no suffix) | real concept |
+| `_flux_1_1`  | *Flux 1.1* version |
+| `_gpt_i_1` | *GPT Image 1* version |
+| `_sd_3_5`  | *Stable Diffusion 3.5* version |
 
 ```text
-concept_images_jpg/
+concepts/
 ├── analysis.py
-├── asparagus/
-│   ├── asparagus
-│   ├── asparagus_flux
-│   ├── asparagus_gpti1
-│   └── asparagus_sd35
-├── bubbly/
-│   ├── bubbly
-│   ├── bubbly_flux
-│   ├── bubbly_gpti1
-│   └── bubbly_sd35
-├── cast_iron/
-│   ├── cast_iron
-│   ├── cast_iron_flux
-│   ├── cast_iron_gpti1
-│   └── cast_iron_sd35
-├── crystalline/
-│   ├── crystalline
-│   ├── crystalline_flux
-│   ├── crystalline_gpti1
-│   └── crystalline_sd35
-├── diced/
-│   ├── diced
-│   ├── diced_flux
-│   ├── diced_gpti1
-│   └── diced_sd35
-├── fin/
-│   ├── fin
-│   ├── fin_flux
-│   ├── fin_gpti1
-│   └── fin_sd35
-├── glass/
-│   ├── glass
-│   ├── glass_flux
-│   ├── glass_gpti1
-│   └── glass_sd35
-├── guitarist/
-│   ├── guitarist
-│   ├── guitarist_flux
-│   ├── guitarist_gpti1
-│   └── guitarist_sd35
-├── leather/
-│   ├── leather
-│   ├── leather_flux
-│   ├── leather_gpti1
-│   └── leather_sd35
-├── lichen/
-│   ├── lichen
-│   ├── lichen_flux
-│   ├── lichen_gpti1
-│   └── lichen_sd35
 │
-├── ...  (the remaining 300+ concept folders follow the same pattern)
+├── asparagus
+├── asparagus_flux
+├── asparagus_gpti1
+├── asparagus_sd35
+│
+├── bubbly
+├── bubbly_flux
+├── bubbly_gpti1
+├── bubbly_sd35
+│
+├── ...  (the remaining folders follow the same pattern)
 ```
 
-> **Tip:**  
-> If you’re only interested in a subset of concepts, you can copy only those directories locally with `rsync`, `scp`, or a simple `cp -r`.  
-> The naming convention makes it trivial to filter by variant (`*_flux`, `*_gpti1`, `*_sd35`) using shell globs or a `find` command.
-
----
-
-### Quick sanity check
-
-After downloading or cloning the repo, you can run the bundled script to confirm that the directory structure is intact:
+After downloading or cloning the repo, you can run the bundled script to check whether the directory structure is intact:
 
 ```bash
-python analysis.py --verify
+python analysis.py
 ```
-
-It will walk the tree and report any missing or mis‑named files.  
 
 Happy exploring!
 
