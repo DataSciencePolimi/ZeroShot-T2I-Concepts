@@ -49,7 +49,7 @@ concepts/
 ├── ...  (the remaining folders follow the same pattern)
 ```
 
-After downloading or cloning the repo, you can run the bundled script to check whether the directory structure is intact:
+After downloading or cloning the repo, you can run the bundled script to analyze the dataset:
 
 ```bash
 python analysis.py
