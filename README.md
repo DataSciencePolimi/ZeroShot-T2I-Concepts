@@ -49,14 +49,6 @@ concepts/
 ├── ...  (the remaining folders follow the same pattern)
 ```
 
-After downloading or cloning the repo, you can run the bundled script to analyze the dataset:
-
-```bash
-python analysis.py
-```
-
-Happy exploring!
-
 ## 🔬 Use Cases
 
 This dataset is intended for:
@@ -91,6 +83,12 @@ These limitations should be carefully considered when using synthetic data for i
 ```bash
 git clone https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts.git
 cd ZeroShot-T2I-Concepts
+```
+
+After downloading or cloning the repo, you can run the bundled script to analyze the dataset:
+
+```bash
+python analysis.py
 ```
 
 Explore the dataset structure and integrate it into your XAI pipelines.
