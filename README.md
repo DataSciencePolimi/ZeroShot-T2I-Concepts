@@ -8,12 +8,13 @@ Concept-based XAI methods aim to interpret deep learning models through human-un
 
 To address this, we explore the use of synthetic concept datasets generated via T2I models as a scalable alternative.
 
-## 📥 Download
-
+## 🚀 Getting Started
 ```bash
 git clone https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts.git
 cd ZeroShot-T2I-Concepts
 ```
+
+Explore the dataset structure and integrate it into your XAI pipelines.
 
 ## 🗂️ Dataset Overview
 
@@ -32,8 +33,7 @@ Each concept is designed to approximate a human-interpretable visual feature, su
 
 ### 📂 Project Tree
 
-The root of the repository is `concepts/`.  
-After the helper script `analysis.py`, every **concept** and **T2I model** gets its own dedicated folder.
+Below is a quick reference for the suffixes you’ll encounter in the dataset’s folder names:
 
 | suffix | meaning |
 |--------|---------|
@@ -41,6 +41,10 @@ After the helper script `analysis.py`, every **concept** and **T2I model** gets 
 | `_flux_1_1`  | *Flux 1.1* version |
 | `_gpt_i_1` | *GPT Image 1* version |
 | `_sd_3_5`  | *Stable Diffusion 3.5* version |
+
+The root of the repository is `concepts/`.  
+After the helper script `analysis.py`, every **concept** and **T2I model** gets its own dedicated folder:
+
 
 ```text
 concepts/
@@ -96,14 +100,6 @@ While synthetic data offers scalability, this dataset highlights some challenges
 - 🤖 Biases introduced by the generative model
 
 These limitations should be carefully considered when using synthetic data for interpretability.
-
-## 🚀 Getting Started
-```bash
-git clone https://github.com/DataSciencePolimi/ZeroShot-T2I-Concepts.git
-cd ZeroShot-T2I-Concepts
-```
-
-Explore the dataset structure and integrate it into your XAI pipelines.
 
 ## 📄 Citation
 
