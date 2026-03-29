@@ -25,11 +25,8 @@ Each concept is designed to approximate a human-interpretable visual feature, su
 
 ### 📂 Project Tree
 
-Below is a quick reference for the suffixes you’ll encounter in the dataset’s folder names.
-
 The root of the repository is `concepts/`.  
 After the helper script `analysis.py`, every **concept** and **T2I model** gets its own dedicated folder:
-
 
 ```text
 concepts/
