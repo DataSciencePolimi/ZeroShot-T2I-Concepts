@@ -12,10 +12,9 @@ To address this, we explore the use of synthetic concept datasets generated via 
 
 The dataset contains:
 
+- 🏷️ Real concept images gathered from various datasets and search engines
 - 🎨 Synthetic concept images generated from predefined textual prompts
-- 🏷️ Concept-level organization (one folder per concept)
 - 🔁 Multiple samples per concept to enable variability analysis
-- ⚙️ Configurations reflecting different prompt and generation settings
 
 Each concept is designed to approximate a human-interpretable visual feature, such as:
 
@@ -66,8 +65,6 @@ The dataset supports four key analyses:
 While synthetic data offers scalability, this dataset highlights some challenges:
 
 - ❗ Potential mismatch between synthetic and real-world concepts
-- 🎭 Limited faithfulness of generated visual features
-- 📉 Variability in usefulness for downstream XAI tasks
 - 🤖 Biases introduced by the generative model
 
 These limitations should be carefully considered when using synthetic data for interpretability.
